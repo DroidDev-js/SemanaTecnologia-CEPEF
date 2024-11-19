@@ -13,12 +13,12 @@
 }
 
 .area-contatos {
-    font-size: 30px;
+    font-size: 15px;
     column-gap: 100px;
     padding: 10px; 
     color: #1d1d1dad;
 }
 
 .area-contatos span {
-    font-weight: 750;
+    font-weight: 700;
 }
