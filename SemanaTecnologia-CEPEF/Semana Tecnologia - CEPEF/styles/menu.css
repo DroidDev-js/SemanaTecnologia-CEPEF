@@ -1,0 +1,39 @@
+.menu {
+    width: 100%;
+    padding: 28px 8%;
+    top: 0;
+    background-color: var(--color-primary-2);
+    position: sticky;
+    z-index: 3;
+}
+
+.title {
+    display: flex;
+    color: var(--color-neutra-0);
+    font-size: 40px;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-link {
+    font-size: 12px;
+    text-decoration: none;
+    color: #1d1d1dea;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--color-primary-1);
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url(menu.css);
+@import url(contatos.css);
+@import url(inicio.css);
+@import url(cursosPresenciais.css);
+@import url(documentacao.css);
+@import url(etec.css);
+@import url(profuncionario.css);
+@import url(institucional.css);
+@import url(noticia.css);
+@import url(rodape.css);
+
+:root {
+    --color-primary-1: #43a047; /* Verde mais vibrante */
+    --color-primary-2: #388e3c;
+    --color-primary-3: #2e7d32;
+    --color-primary-4: #1b5e20;
+
+    --color-neutra-0: #ffffff; /* Branco puro */
+    --color-neutra-1: #212121; /* Preto mais intenso */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    height: 5px; 
+    background-color: var(--color-primary-2);
+    margin: 0; 
+    padding: 0;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+}
+ 
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primary-4);
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-neutra-1);
+    text-align: center;
+}
+
+.card {
+    border: 1px solid var(--color-primary-2);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--color-primary-2);
+    color: var(--color-neutra-0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: var(--color-primary-1);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}

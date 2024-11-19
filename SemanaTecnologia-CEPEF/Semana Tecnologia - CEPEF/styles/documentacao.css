@@ -1,0 +1,17 @@
+#documentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #1d1d1dea;
+}
+
+.area-documento {
+    font-size: 23px;
+    column-gap: 100px;
+    padding: 10px;
+}
+
+.area-documento span {
+    font-weight: 600;
+}
