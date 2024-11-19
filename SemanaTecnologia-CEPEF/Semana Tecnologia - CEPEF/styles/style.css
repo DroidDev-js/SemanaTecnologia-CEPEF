@@ -11,13 +11,13 @@
 @import url(rodape.css);
 
 :root {
-    --color-primary-1: #43a047; /* Verde mais vibrante */
+    --color-primary-1: #43a047; 
     --color-primary-2: #388e3c;
     --color-primary-3: #2e7d32;
     --color-primary-4: #1b5e20;
 
-    --color-neutra-0: #ffffff; /* Branco puro */
-    --color-neutra-1: #212121; /* Preto mais intenso */
+    --color-neutra-0: #ffffff;
+    --color-neutra-1: #212121;
 }
 
 * {
